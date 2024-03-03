@@ -1,0 +1,30 @@
+.app {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+
+  .form {
+    background-color: #555;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .btn-submit {
+    background-color: #666;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    transition: opacity .2s ease-in;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
